@@ -1,7 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:processors_info/models/processor_model.dart';
-// import 'package:processors_info/assets/processor.jpg';
 
 class ProcessorsDetailScreen extends StatelessWidget {
   ProcessorModel processorModel;
