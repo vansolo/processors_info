@@ -62,9 +62,16 @@ class ProcessorsDetailScreen extends StatelessWidget {
       padding: EdgeInsets.fromLTRB(20.0, 0.0, 20.0, 40.0),
       child: Row(
         children: <Widget>[
-          Text(
-            "Marca: ${processorModel.brand} \n\n +Threads: ${processorModel.threads} \n\nNúcleos: ${processorModel.core} \n\nVelocidade: ${processorModel.operationFrequency}",
-            style: TextStyle(color: Colors.black, fontSize: 18.0),
+          Expanded(
+            flex: 2,
+            child: Text(
+              "Marca: ${processorModel.brand} \n\n +Threads: ${processorModel.threads} \n\nNúcleos: ${processorModel.core} \n\nVelocidade: ${processorModel.operationFrequency}",
+              style: TextStyle(color: Colors.black, fontSize: 18.0),
+            ),
+          ),
+          Expanded(
+            flex: 2,
+            child: Image(image: AssetImage("assets/processor.jpg")),
           ),
         ],
       ),
