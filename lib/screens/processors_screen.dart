@@ -49,7 +49,7 @@ class _ProcessorsScreenState extends State<ProcessorsScreen> {
       ),
       child: Container(
         decoration: BoxDecoration(
-          color: Color.fromRGBO(255, 69, 0, .9),
+          color: Colors.amber,
         ),
         child: ListTile(
           contentPadding: EdgeInsets.symmetric(
